@@ -24,7 +24,7 @@ class Ffmpeg {
             'fileName' => $fileInfo[0],                      //不带后缀文件名
             'fileExt' => $fileInfo[1],                   //带后缀文件名
             'fileNameExt' => $fileNameExt,                   //带后缀文件名
-            'webmExt' => 'webm',                              //新生成解密的临时文件后缀
+            'webmExt' => 'wav',                              //新生成解密的临时文件后缀
             'pcmExt' => 'pcm',                                //转码后临时文件pcm后缀
         ];
     }
